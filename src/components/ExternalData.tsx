@@ -9,6 +9,7 @@ type TrainerProps = {
 const ExternalData = () => {
     return (
         <>
+            <h2>External Data</h2>
             {
                 trainers.map(({ id, name, age, specialism }: TrainerProps) => (<Trainer key={id} name={name} age={age} specialism={specialism} />))
             }
