@@ -8,7 +8,7 @@ function App() {
   return (    
     <>
         <h1>Hello, World</h1>
-        <About/>
+        {/* <About/> */}
         <Trainer name="Jordan" age={30} specialism="java" intro={intro}/>
         <Trainer name="Cameron" age="32" specialism="js"  intro={intro}/>
         <Trainer name="Piers" age={26} specialism="devops"  intro={intro} />
