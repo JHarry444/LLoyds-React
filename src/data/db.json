@@ -1,0 +1,32 @@
+{
+    "ducks": [
+        {
+            "id": "fdgdg",
+            "name": "Daffy",
+            "age": 32,
+            "colour": "Black",
+            "habitat": "ToonWorld"
+        },
+        {
+            "id": "ad4c",
+            "name": "donald",
+            "age": "43",
+            "colour": "white",
+            "habitat": "DisneyWorld"
+        },
+        {
+            "id": "cc67",
+            "name": "molly",
+            "age": "12",
+            "colour": "purple",
+            "habitat": "pond"
+        },
+        {
+            "id": "dfsdfds",
+            "name": "marvin",
+            "age": "23",
+            "colour": "blue",
+            "habitat": "lake"
+        }
+    ]
+}

@@ -7,6 +7,7 @@ import ExternalData from "./components/ExternalData";
 import Counter from "./components/counter/Counter";
 import PetList from "./components/counter/PetList";
 import DuckContainer from "./components/inverse_data_flow/DuckContainer";
+import DuckContainerFetch from "./http_requests/DuckContainerFetch";
 function App() {
 
 
@@ -25,6 +26,8 @@ function App() {
         <Link to="/external">External</Link>
         {" "}
         <Link to="/inverseDataFlow">Inverse Data Flow</Link>
+        {" "}
+        <Link to="/fetch">Fetch</Link>
       </nav>
 
       <Routes>
@@ -35,6 +38,7 @@ function App() {
         <Route path="/state/list" element={<PetList />} />
         <Route path="/external" element={<ExternalData />} />
         <Route path="/inverseDataFlow" element={<DuckContainer />} />
+        <Route path="/fetch" element={<DuckContainerFetch />} />
 
         <Route path="*" element={<h1>Page not found!</h1>} />
       </Routes>
