@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./components/Home";
 import Props from "./components/Props";
 import ExternalData from "./components/ExternalData";
+import Counter from "./components/counter/Counter";
+import PetList from "./components/counter/PetList";
 function App() {
 
 
@@ -26,6 +28,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/props" element={<Props />} />
+        <Route path="/state/counter" element={<Counter />} />
+        <Route path="/state/list" element={<PetList />} />
+
         <Route path="/external" element={<ExternalData />} />
 
         <Route path="*" element={<h1>Page not found!</h1>} />
